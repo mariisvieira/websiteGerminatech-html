@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Slab:wght@100;300;400;700&family=Macondo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: Montserrat;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 75px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 555px;
+
+}
+
+li{
+    list-style: none;
+    font-weight: 600;
+}
+
+#imgLogo{
+    border-radius: 150px;
+    width: 200px;
+    position: absolute;
+    top: 65px;
+    left: 135px;
+}
+/*Começando a fazer conteúdo da main*/
+main{
+    background-image: url("img/banner.jpg");
+    color: white;
+    height: 400px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+}
+
+#apren{
+    margin: 0px;
+    font-weight: 500;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    border: solid white 1px;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 10px;
+    width: 100px;
+    margin-top: 25px;
+}
+/*Segunda parte do website*/
+#sec1{
+    color: white;
+    background-image: url('img/background.png');
+}
+
+article{
+    display: flex;
+    padding-top: 15px;
+}
+
+.container2{
+    width: 50%;
+    padding-top: 55px;
+}
+#imgPc{
+    border-radius: 350px;
+    padding: 35px;
+}
+
+.flex{
+    display: flex;
+    margin-top: 25px;
+    column-gap: 15px;
+}
+/*Site one page*/
+
+#wireFrameYT{
+    background-color: white;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 75px;
+}
+
+#divWire{
+    width: 70%;
+    padding-left: 75px;
+}
+#iframe{
+    padding-right: 90px;
+}
+/**/
+#wireFrameQR{
+    background-image: url('img/background.png');
+    display: flex;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#imgQr{
+    width: 250px;
+}
+/*Última parte*/
+#ultS{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 45px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: rgb(226, 223, 223);
+    border: solid 1px gray;
+    padding: 0;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.conteudoImg{
+    border-radius: 15px 15px 0px 0px;
+    width: 350px;
+}
+
+.inform{
+    margin: 0;
+    text-align: left;
+    padding: 15px;
+}
+
+.bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saibaBut{
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+}
